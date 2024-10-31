@@ -1,0 +1,23 @@
+git "INSERT COMMAND HERE"
+
+init 
+- this just creates a .git file and therefore makes a repo in the directory you called this in
+
+add
+- follow this by the files that you want to add to a commit
+.
+
+status
+
+
+commit
+
+push
+
+pull
+
+clone
+
+reset (--hard)
+
+
