@@ -8,9 +8,15 @@ add
 .
 
 status
+- shows which files are added to github (or not) and any files that are being staged for a commit
 
+git commit -m "started a new repo, so added all files"
+git commit -m "modified a function wihtin file1.txt"
 
-commit
+git commit -m "something
+
+:!q
+
 
 push
 
@@ -19,5 +25,20 @@ pull
 clone
 
 reset (--hard)
+
+git add .
+git commit -m "commit name"
+
+if (first_time_pushing)
+    git remote add origin git@github.com:BenFlurry/example101.git
+    git push --set-upstream origin main
+
+otherwise
+    git push
+
+
+git add .
+git commit -m "name of commit"
+git push
 
 
