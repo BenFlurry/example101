@@ -21,6 +21,8 @@ git commit -m "something
 push
 
 pull
+- pulls the most recent changes to the github
+
 
 clone
 
@@ -36,9 +38,14 @@ if (first_time_pushing)
 otherwise
     git push
 
+(git pull)
+
 
 git add .
 git commit -m "name of commit"
 git push
+
+commit 1
+commit 2 
 
 
